@@ -1,0 +1,99 @@
+.wrap {
+    width: 100%;
+    height: 2000px;
+    display: block;
+    background-color: white;
+    border-top: 5px #e4fe30 solid;
+    border-bottom: 5px #e4fe30 solid;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.main__info {
+    width: 1140px;
+    height: 2000px;
+    display: inline-block;
+    text-align: center;
+}
+
+.main__info img {
+    padding: 50px 0 0 0;
+    margin: auto;
+    display: block;
+}
+
+.registration {
+    width: 360px;
+    height: 120px;
+    margin-top: 70px;
+    display: inline-block;
+    background-color: #111a34;
+    border-radius: 30px 30px 30px 30px;
+    text-align: center;
+    color: black;
+}
+
+.registrationbtn {
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 60px;
+    float: flex;
+    font-weight: bold;
+}
+
+.registrationbtn:hover {
+    color: #e4fe30;
+}
+
+.navbar__menu__drop {
+    background-color: #111a34;
+}
+
+.size {
+    position: absolute;
+    margin: 40px 0 0 700px;
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #e4fe30;
+    cursor: pointer;
+}
+
+.size a:hover {
+    color: white;
+}
+
+.size a {
+    margin-top: 7px;
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.size_chart {
+    margin: 40px 0 0 700px;
+    border: 5px #e4fe30 solid;
+    width: 650px;
+    height: 340px;
+    position: absolute;
+    display: none;
+}
+
+.size_chart span {
+    margin-top: 30px;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bold;
+    color: #111a34;
+}
+
+.size_chart img {
+    display: inline-block;
+}
+
+
+.chart_show {
+    display: block;
+    background-color: white;
+}

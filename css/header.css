@@ -1,0 +1,109 @@
+header {
+    width: 100%;
+    height: 784px;
+    border-top: 5px #e4fe30 solid;
+    border-bottom: 5px #e4fe30 solid;
+    background-repeat: no-repeat;
+    background-image: url(https://static.wixstatic.com/media/1b0a55_fd35558f1a174495af9b6e2239fa61b4~mv2_d_2400_1600_s_2.jpg/v1/fill/w_1870,h_764,al_c,q_85,usm_0.66_1.00_0.01/1b0a55_fd35558f1a174495af9b6e2239fa61b4~mv2_d_2400_1600_s_2.webp);
+    background-size: cover;
+}
+
+.header__main {
+    width: 100%;
+    height: 784px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header__main__photo {
+    margin: 30px 0 0 0;
+    font-weight: bold;
+    color: white;
+    width: 280px;
+    height: 20px;
+}
+
+/* .header__main span {
+    margin: 30px 95px 0 0;
+    font-weight: bold;
+    position: relative;
+    color: white;
+    float: right;
+    display: flex;
+    vertical-align: top;
+} */
+
+.header__main__logo {
+    margin: 80px 0 0 30px;
+    width: 218px;
+    height: 270px;
+}
+
+.header__main__right {
+    margin-left: 1400px;
+    width: 400px;
+    height: 600px;
+    position: absolute;
+}
+
+.header__main__registration {
+    width: 280px;
+    height: 75px;
+    padding: 15px 0 0 0;
+    color: white;
+    background-color: #111a34;
+    margin: 30px 0 0 0;
+    text-align: center;
+    border-radius: 15px 15px 15px 15px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.header__main__course {
+    width: 280px;
+    height: 40px;
+    margin: 0 0 0 10px;
+    border-radius: 10px 10px 10px 10px;
+    margin: 10px 0 0 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.header__main__course1 {
+    color: #e4fe30;
+}
+
+.header__main__course2 {
+    color: #F29600;
+}
+
+.header__main__course3 {
+    color: #053B5C;
+}
+
+.header__main__course4 {
+    color: #ff1849;
+    margin-right: 1px;
+}
+
+.header__main__date {
+    margin: 20px 0 0 10px;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+}
+
+.header__main__date p {
+    color: white;
+}
+
+.header__main__wording {
+    margin: 600px 0 0 1100px;
+    position: absolute;
+}
+
+.header__main__wording p {
+    color: #e4fe30;
+    font-size: 70px;
+    font-weight: bold;
+}

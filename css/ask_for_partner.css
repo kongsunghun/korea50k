@@ -1,0 +1,95 @@
+.wrap {
+    width: 100%;
+    height: 1000px;
+    display: block;
+    background-color: white;
+    border-top: 5px #e4fe30 solid;
+    border-bottom: 5px #e4fe30 solid;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.main__info {
+    width: 1140px;
+    height: 1000px;
+    display: inline-block;
+    text-align: center;
+}
+
+.main__info img {
+    padding: 50px 0 0 0;
+    margin: auto;
+    display: block;
+}
+
+.main__info span {
+    text-align: center;
+    display: table;
+    margin: 0 auto;
+}
+
+.main__info span:nth-child(1) {
+    color: #111a34;
+    margin-top: 230px;
+    font-size: 50px;
+}
+
+.main__info span:nth-child(2) {
+    font-size: 60px;
+    margin-top: 30px;
+    background-color: #111a34;
+    color: white;
+}
+
+.main__info span:nth-child(3) {
+    margin-top: 30px;
+    color: #313131;
+    font-size: 30px;
+}
+
+.main__info span:nth-child(4) {
+    margin-top: 100px;
+    font-size: 20px;
+    color: black;
+}
+
+.main__info span:nth-child(5) {
+    margin-top: 30px;
+    font-size: 20px;
+    color: black;
+}
+
+.main__info span:nth-child(6) {
+    font-size: 20px;
+    margin-top: 30px;
+    font-weight: bold;
+    color: black;
+}
+
+.registration {
+    width: 360px;
+    height: 120px;
+    margin-top: 30px;
+    display: inline-block;
+    background-color: #111a34;
+    border-radius: 30px 30px 30px 30px;
+    text-align: center;
+    color: black;
+}
+
+.registrationbtn {
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 60px;
+    float: flex;
+    font-weight: bold;
+}
+
+.registrationbtn:hover {
+    color: #e4fe30;
+}
+
+.navbar__menu__drop {
+    background-color: #111a34;
+}

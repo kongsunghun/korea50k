@@ -1,0 +1,183 @@
+@import "reset.css";
+@import "footer.css";
+@import "header.css";
+@import "video.css";
+
+@media screen and (max-width: 768px) {
+    .navbar__wrap {
+        flex-direction: column;
+    }
+}
+
+body {
+    background-color: #111a34;
+}
+
+.navbar {
+    width: 100%;
+    height: 140px;
+    background-color: #111a34;
+}
+
+.navbar__logo {
+    width: 0px;
+    height: 0;
+    margin-right: 400px;
+}
+
+.navbar__wrap {
+    display: flex;
+    width: 1140px;
+    height: 140px;
+    margin: auto;
+}
+
+.navbar__logo__img img {
+    margin: 20px 10px 20px 10px;
+    width: 78px;
+    height: 100px;
+    float: left;
+    display: flex;
+}
+
+.navbar__logo__title {
+    width: 200px;
+    height: 40px;
+    display: inline-block;
+}
+
+.navbar__logo__title a {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    color: white;
+    margin-right: 100px;
+    display: inline-block;
+    padding: 50px 0 0 0;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar__wrap ul li {
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 60px 0 0 0;
+    text-align: center;
+    color: white;
+}
+
+.navbar__wrap ul li a:hover {
+    color: #e4fe30;
+}
+
+.navbar__etc {
+    width: 140px;
+    height: 140px;
+}
+
+.language {
+    width: 140px;
+    height: 70px;
+}
+
+.kakaotalk {
+    width: 140px;
+    height: 70px;
+}
+
+.language__ko img {
+    padding: 20px 5px 0 5px;
+    margin: 0 5px 0 16px;
+    width: 39px;
+    height: 50px;
+    float: left;
+}
+
+.language__en img {
+    padding: 20px 5px 0 5px;
+    margin: 0 16px 0 5px;
+    width: 39px;
+    height: 50px;
+    float: left;
+}
+
+.kakaotalk img {
+    margin: 10px 13px 10px 13px;
+}
+
+
+
+
+
+
+.navbar__menu__drop {
+    position: absolute;
+    margin: 5px 0 0 0;
+    padding: 10px 0 10px 0;
+    display: none;
+    font-weight: bold;
+    color: white;
+    width: 100%;
+    background-color: rgba(14, 14, 14, 0.7);
+    z-index: 2000;
+}
+
+.navbar__menu__drop a {
+    display: block;
+}
+
+.dropbtn {
+    color: white;
+    cursor: pointer;
+}
+
+.show {
+    display: block;
+}
+
+.drop {
+    width: 900px;
+    height: 200px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    padding: 10px 0 0 0;
+}
+
+.drop a:hover {
+    color: #e4fe30;
+}
+
+.drop ul {
+    float: left;
+    font-size: 20px;
+    color: white;
+}
+
+.drop ul li {
+    width: 190px;
+    height: 40px;
+}
+
+.drop1 a {
+    color: white;
+}
+
+.drop1 {
+    margin-left: -15px;
+    margin-right: 110px;
+}
+
+.drop2 {
+    margin-right: 10px;
+}
+
+.drop3 {
+    margin-right: 8px;
+}
