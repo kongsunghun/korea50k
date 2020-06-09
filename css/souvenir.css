@@ -55,13 +55,15 @@
     margin: 40px 0 0 700px;
     width: 200px;
     height: 50px;
-    border-radius: 30px;
-    background-color: #e4fe30;
+    color: white;
+    border-radius: 0px 30px 30px 30px;
+    background-color: #c4d700;
+    border-bottom: 5px #111a34 solid;
     cursor: pointer;
 }
 
 .size a:hover {
-    color: white;
+    color: #111a34;
 }
 
 .size a {
@@ -78,6 +80,7 @@
     height: 340px;
     position: absolute;
     display: none;
+    z-index: 2000;
 }
 
 .size_chart span {
@@ -96,4 +99,8 @@
 .chart_show {
     display: block;
     background-color: white;
+}
+
+.size_chartbtn {
+    cursor: pointer;
 }
