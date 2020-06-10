@@ -5,19 +5,24 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="css/mandatory_gear.css">
+  <link rel="stylesheet" href="css/consent_form.css" />
   <title>KOREA 50K</title>
   <script src="dropdown.js"></script>
+  <script src="course.js"></script>
 </head>
 
 <body>
   <nav class="navbar">
     <div class="navbar__wrap">
       <div class="navbar__logo">
-        <div class="navbar__logo__img"><a href="index.html"><img
+        <div class="navbar__logo__img">
+          <a href="index.html"><img
               src="https://static.wixstatic.com/media/5fd77f_b4e71799f680433ab2b041eb83545fa9~mv2.png/v1/fill/w_218,h_270,al_c,q_85,usm_0.66_1.00_0.01/KOREA-50K_w_C_Montrail_LOGO_REVISED.webp"
-              alt="" /></a></div>
-        <div class="navbar__logo__title"><a onclick="myFunction()" class="dropbtn">KOREA 50K</a></div>
+              alt="" /></a>
+        </div>
+        <div class="navbar__logo__title">
+          <a onclick="myFunction()" class="dropbtn">KOREA 50K</a>
+        </div>
       </div>
       <ul>
         <li><a onclick="myFunction()" class="dropbtn">대회정보</a></li>
@@ -92,11 +97,84 @@
     </ul>
   </div>
   <div class="wrap">
+    <div class="main__tap">
+      <ul class="taps">
+        <li id="tap_50k">
+          <a class="tablinks active" onclick="openTab(event, 'tab3')" href="#">내국인(Local)</a>
+        </li>
+        <li id="tap_10k">
+          <a class="tablinks" onclick="openTab(event, 'tab1')" href="#">Foreigner(PayPal)</a>
+        </li>
+      </ul>
+    </div>
     <div class="main__info">
-      <img
-        src="https://static.wixstatic.com/media/7d32ec_a9ee0c5b90914f86aeee485a87f4fb05~mv2.png/v1/fill/w_896,h_592,al_c,q_90,usm_0.66_1.00_0.01/%EB%8C%80%ED%9A%8C%EC%A0%95%EB%B3%B4-%ED%95%84%EC%88%98%EC%9E%A5%EB%B9%84.webp">
-      <div class="registration">
-        <a class="registrationbtn" href="consent_form.html">참가신청</a>
+      <div id="tab1" class="tabcontent" style="display: none;">
+        <img
+          src="https://static.wixstatic.com/media/7d32ec_49f166fd038744a68c01d18c5b09b7ea~mv2.png/v1/fill/w_930,h_1514,al_c,q_90,usm_0.66_1.00_0.01/%EA%B7%B8%EB%A3%B9%2028.webp"
+          alt="" />
+        <span>Registration (참가신청)</span>
+        <div class="registraion">
+          <ul>
+            <li>
+              <a href="#"><img src="img/race10_dc.png" alt="" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="img/race10.png" alt="" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="img/race25.png" alt="" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="img/race50.png" alt="" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="img/race100.png" alt="" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="img/staff2019.png" alt="" /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id="tab3" class="tabcontent" style="display: block;">
+        <img
+          src="https://static.wixstatic.com/media/7d32ec_3e23ece7810e4e4fa3519641aa2d8b24~mv2.png/v1/fill/w_930,h_1778,al_c,q_90,usm_0.66_1.00_0.01/%EB%8F%99%EC%9D%98%EC%84%9C.webp"
+          alt="" />
+        <span>Registration (참가신청)</span>
+        <div class="registraion">
+          <ul>
+            <li>
+              <a
+                href="http://www.jsceno.com/good/product_view?goodNum=202895018&sCateNum=&sProd=&listType=list&sOrder=oRegistDate"><img
+                  src="img/race10_dc.png" alt="" /></a>
+            </li>
+            <li>
+              <a
+                href="http://www.jsceno.com/good/product_view?goodNum=202852633&sCateNum=&sProd=&listType=list&sOrder=oRegistDate"><img
+                  src="img/race10.png" alt="" /></a>
+            </li>
+            <li>
+              <a
+                href="http://www.jsceno.com/good/product_view?goodNum=202832222&sCateNum=&sProd=&listType=list&sOrder=oRegistDate"><img
+                  src="img/race25.png" alt="" /></a>
+            </li>
+            <li>
+              <a
+                href="http://www.jsceno.com/good/product_view?goodNum=202000686&sCateNum=&sProd=&listType=list&sOrder=oRegistDate&cinfo=4uJtE1BllC%2BIJA4UEwb9tqPuoIwxx5zi3RQpduS3jNg77y3z4y7Ypou2wAVibb03"><img
+                  src="img/race50.png" alt="" /></a>
+            </li>
+            <li>
+              <a
+                href="http://www.jsceno.com/good/product_view?goodNum=202805634&sCateNum=&sProd=&listType=list&sOrder=oRegistDate"><img
+                  src="img/race100.png" alt="" /></a>
+            </li>
+            <li>
+              <a
+                href="http://www.jsceno.com/good/product_view?goodNum=202768261&sCateNum=&sProd=&listType=list&sOrder=oRegistDate&cinfo=nok7u%2FHMgabs6YcOGIQ2BDWpo5ej2PjdWQKCvf%2FeQwCkAKvjYmiLRmTZLKHAsm05"><img
+                  src="img/staff2019.png" alt="" /></a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
