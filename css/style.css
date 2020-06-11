@@ -3,12 +3,6 @@
 @import "header.css";
 @import "video.css";
 
-@media screen and (max-width: 768px) {
-    .navbar__wrap {
-        flex-direction: column;
-    }
-}
-
 body {
     background-color: #111a34;
 }

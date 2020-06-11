@@ -5,10 +5,12 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="css/ask_for_expo.css">
+  <link rel="stylesheet" href="css/contact.css">
   <link rel="stylesheet" type="text/css" href="ContactFrom_v2/css/main.css">
+  <!--===============================================================================================-->
   <title>KOREA 50K</title>
   <script src="dropdown.js"></script>
+  <script src="ContactFrom_v2/js/main.js"></script>
 </head>
 
 <body>
@@ -95,16 +97,13 @@
   <div class="wrap">
     <div class="main__info">
       <span>2020 KOREA 50K</span>
-      <span>Trail running & Outdoor EXPO</span>
-      <span>2020 KOREA 50K EXPO 참가를 희망하는 업체는</span>
-      <span>문의를 남겨주시면 연락드리겠습니다.</span>
-      <span>2020 KOREA 50K EXPO 일정</span>
-      <span>2020, 9.26(토) 11시~18시</span>
+      <span>CONTACT (문의사항)</span>
+      <span>KOREA 50K 관련 문의 사항을 남겨주시면 신속하게 답변 드리겠습니다.</span>
       <a href="#contact">
         <img src="img/down_arrow.png">
       </a>
     </div>
-    <div id="contact" class="bg-contact2" style="background-image: url('images/bg-01.jpg');">
+    <div id="contact" class="bg-contact2" style="background-image: url('ContactFrom_v2/images/bg-01.jpg');">
       <div class="container-contact2">
         <div class="wrap-contact2">
           <form class="contact2-form validate-form">
@@ -112,18 +111,18 @@
               Contact Us
             </span>
             <div class="wrap-input2 validate-input" data-validate="Name is required">
-              <input class="input2" type="text" name="name">
+              <input class="input2" type="text" name="name" required>
               <span class="focus-input2" data-placeholder="NAME"></span>
             </div>
             <div class="wrap-input2 validate-input" data-validate="Valid email is required: ex@abc.xyz">
-              <input class="input2" type="text" name="email">
+              <input class="input2" type="text" name="email" required>
               <span class="focus-input2" data-placeholder="EMAIL"></span>
             </div>
             <div class="wrap-input2 validate-input" data-validate="Valid email is required: ex@abc.xyz">
               <input class="input2" type="text" name="phone">
               <span class="focus-input2" data-placeholder="PHONE"></span>
             </div>
-            <div class="wrap-input2 validate-input" data-validate="Message is required">
+            <div class="wrap-input2 validate-input" data-validate="Message is required" required>
               <textarea class="input2" name="message"></textarea>
               <span class="focus-input2" data-placeholder="MESSAGE"></span>
             </div>

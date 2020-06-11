@@ -18,7 +18,7 @@
 }
 
 .main__info a img {
-    padding-top: 20px;
+    padding: 100px 0 0 0;
     margin: auto;
     display: block;
     width: 50px;
@@ -52,24 +52,22 @@
 }
 
 .main__info span:nth-child(4) {
-    margin-top: 30px;
-    color: #313131;
-    font-size: 30px;
+    margin-top: 100px;
+    font-size: 20px;
+    color: black;
 }
 
 .main__info span:nth-child(5) {
-    margin-top: 100px;
-    font-size: 35px;
-    color: white;
-    background-color: #111a34;
+    margin-top: 30px;
+    font-size: 20px;
+    color: black;
 }
 
 .main__info span:nth-child(6) {
-    font-size: 35px;
+    font-size: 20px;
     margin-top: 30px;
     font-weight: bold;
-    color: white;
-    background-color: #111a34;
+    color: black;
 }
 
 .registration {
